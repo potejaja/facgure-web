@@ -4,7 +4,6 @@ import Dataprive from "../page/dataprive";
 
 const Routers = () => {
   useEffect(() => {
-    console.log("szs");
   }, []);
   return (
     <div>

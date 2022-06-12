@@ -125,13 +125,13 @@ const Footer = () => {
           <div className="ml-3">
             <img
               className="w-8"
-              src="https://static.wixstatic.com/media/4057345bcf57474b96976284050c00df.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4057345bcf57474b96976284050c00df.png"
+              src="https://static.wixstatic.com/media/45bce1d726f64f1999c49feae57f6298.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/45bce1d726f64f1999c49feae57f6298.png"
             />
           </div>
           <div className="ml-3">
             <img
               className="w-8"
-              src="https://static.wixstatic.com/media/4057345bcf57474b96976284050c00df.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4057345bcf57474b96976284050c00df.png"
+              src="https://static.wixstatic.com/media/aa0402eb9ba2430d9d0620b59556efca.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aa0402eb9ba2430d9d0620b59556efca.png"
             />
           </div>
         </div>

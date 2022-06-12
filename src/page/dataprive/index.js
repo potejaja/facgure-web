@@ -33,6 +33,7 @@ const Dataprive = () => {
         setData(data.data[0]);
       }
     }
+   
   };
 
   const [animateFeaturesFade, setAnimateFeaturesFade] = useState(false);
@@ -41,7 +42,6 @@ const Dataprive = () => {
 
   useEffect(() => {
     return () => {
-      console.log(offset);
       if (offset > 220) {
         setAnimateFeaturesFade(true);
       }
