@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.flex-content-end{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.flex-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.minWidth{
+  min-width: 1000px
+}
+
+.feature-boxs{
+  background-color: #ffffff;
+  height: 280px;
+  align-content: center;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.circle-inbox{
+  font-family: Kanit-Bold !important;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #173292;
+  height: 75px;
+  width: 75px;
+  display: flex;
+}
+
+.font-r{
+  font-family: Kanit-Regular !important;
+}
+
+.circle-inbox div {
+  color: #ffffff;
+  margin: auto;
+}
+
+.goback{
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.goback:hover{
+  color: #EF6700;
+}
+
+.position-absolute-img{
+  z-index: -1;
+  position: absolute;
+}
+
+.btn-goto{
+  font-size: 15px;
+  color:#ffffff;
+  text-align: center;
+  background-color:#222222 ;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  
+  width: 200px;
+}
+
+.text-fade{
+  position: relative;
+  line-height: 2em;
+  overflow: hidden;
+}
+
+.fadingEffect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  animation: showHide 4.5s forwards;
+  
+}
+
+@keyframes showHide {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 0%;
+  }
+}
+
+.line-animetion-full {
+  height: 7px;
+  background-color: #EF6700;
+  animation-duration: 1s;
+
+  -webkit-animation: line-animetion 1.0s forwards;
+  /* for less modern browsers */
+  animation: line-animetion 1.0s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes line-animetion {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+  
+}
+
+.header-container{
+  top:0;
+  width: 100%;
+  background: #ffffff;
+  position: fixed;
+  z-index: 99;
+}
+
+.footer-color {
+  width: 100%;
+  color: #ffffff;
+  background-color: #222222;
+  padding: 10px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+
+.bg-linear-gradient{
+  z-index: -1;
+  top:300px;
+  height: 520px;
+  width: 100%;
+  position: absolute;
+  background: rgb(237, 242, 250);
+    background: linear-gradient(90deg, rgba(237, 242, 250, 1) 0%, rgba(250, 251, 254, 1) 70%, rgba(255, 255, 255, 1) 100%);
+}

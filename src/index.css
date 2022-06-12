@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Kanit";
+  src: local("Kanit"),
+    url(../public/assets/fonts/Kanit-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Kanit-SemiBold";
+  src: local("Kanit-SemiBold"),
+    url(../public/assets/fonts/Kanit-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Kanit-Bold";
+  src: local("Kanit-Bold"),
+    url(../public/assets/fonts/Kanit-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Kanit-Regular";
+  src: local("Kanit-Regular"),
+    url(../public/assets/fonts/Kanit-Regular.ttf) format("truetype");
+}
+
+
+body {
+  margin: 0;
+  font-family: Kanit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
